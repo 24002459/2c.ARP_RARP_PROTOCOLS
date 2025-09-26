@@ -17,7 +17,7 @@ stored.
 5. Map the IP address with its MAC address and return the MAC address to client.
 P
 ## PROGRAM - ARP
-#server
+## server
 ```
 import socket
 s = socket.socket()
@@ -49,7 +49,7 @@ while True:
 c.close()
 s.close()
 ```
-#client
+## client
 ```
 import socket
 c = socket.socket()
@@ -71,11 +71,11 @@ c.close()
 #sever
 <img width="836" height="334" alt="image" src="https://github.com/user-attachments/assets/cc13434c-c9f3-4dd8-9ab4-75c3a7440107" />
 
-#client
+## client
 <img width="836" height="335" alt="image" src="https://github.com/user-attachments/assets/cfc3b881-63ab-483a-b10e-314071f75e9d" />
 
 ## PROGRAM - RARP
-#sever
+## sever
 ```
 import socket
 s = socket.socket()
@@ -106,7 +106,7 @@ while True:
 c.close()
 s.close()
 ```
-#client
+## client
 ```
 import socket
 c = socket.socket()
@@ -122,10 +122,10 @@ while True:
 c.close()
 ```
 ## OUPUT -RARP
-#server
+## server
 <img width="828" height="354" alt="image" src="https://github.com/user-attachments/assets/323e4df4-456e-4b0e-a228-3b777a98826d" />
 
-#client
+## client
 <img width="831" height="335" alt="image" src="https://github.com/user-attachments/assets/b974aa75-71a6-4df7-9d1a-ac278a1ef5b7" />
 
 ## RESULT
